@@ -1,0 +1,11 @@
+# GitHub Self-Hosted Runner
+actions-runner/
+
+# Runner runtime files
+.runner
+.env
+_work/
+_diag/
+
+# Logs
+*.log
