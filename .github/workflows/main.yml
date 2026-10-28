@@ -1,0 +1,13 @@
+name: SelfHosted-Test
+on: 
+  workflow_dispatch
+  
+jobs:
+
+  demo:
+  
+    runs-on: self-hosted
+    
+    steps:
+      - name: Saludar
+        run: echo Hola Mundo desde selfhosted
